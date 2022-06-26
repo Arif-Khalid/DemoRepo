@@ -11,9 +11,6 @@ jobs:
       matrix:
         targetPlatform:
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
-        projectPath:
-          - CICDTest # This is correct
-
     steps:
       - uses: actions/checkout@v2
         with:
